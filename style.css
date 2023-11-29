@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret One');
+@import url('https://fonts.googleapis.com/css2?family=League Gothic');
+@import url('https://fonts.googleapis.com/css2?family=Arimo');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #010202;
+}
+
+img {
+    border-radius: 10px;
+}
+.navbar{
+    background-color: #FF80B6;
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    color: aliceblue;
+    font-family: 'Poiret One';
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'League Gothic';
+    width: 40vh;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: #010202b4;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF80B6;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 10px;
+
+}
+
+.selected{
+    color: #EBEBEB;
+}
+
+p{
+    color: #EBEBEB;
+    font-family: Arimo;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.titles{
+    color: #FFF;
+    font-family: League Gothic;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.divider{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    background: #FF80B6;
+}
+
+.divider h1{
+    color: #010202;
+    font-family: League Gothic;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 2%;
+}
+
+.divider2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 340px;
+    align-items: center;
+    justify-content: space-around;
+    background: #FF80B6;
+}
+
+.divider2 h1{
+    color: #ffffff;
+    font-family: League Gothic;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3%;
+    padding: 2%;
+}
+
+.productos .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #FF80B6;
+}
+
+.button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'League Gothic';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    background: #FF80B6;
+    color: #ffffff;
+    font-family: League Gothic;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #000000;
+    border: 0px none #000000;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #edd4d4;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 0px none #979797;
+    border-radius: 43px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #000000;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
